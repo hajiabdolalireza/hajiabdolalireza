@@ -25,14 +25,16 @@
 ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 <!-- Backend & APIs -->
+<!-- Node js Frameworks -->
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+<!-- Python Frameworks -->
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 <!-- Go Frameworks -->
 ![Gin](https://img.shields.io/badge/Gin-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Echo](https://img.shields.io/badge/Echo-444444?style=for-the-badge&logo=go&logoColor=white)
 ![Fiber](https://img.shields.io/badge/Fiber-2C8EBB?style=for-the-badge&logo=fiber&logoColor=white)
 ![Chi](https://img.shields.io/badge/Chi-2C5BB4?style=for-the-badge&logo=go&logoColor=white)
-
 
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
