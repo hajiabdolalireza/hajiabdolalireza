@@ -7,4 +7,5 @@
 <!--END_SECTION:activity-->
 
 
-
+![Alireza's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
+[![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=guilyx&repo=guilyx&theme=radical)](https://github.com/guilyx/guilyx)
