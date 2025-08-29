@@ -1,0 +1,13 @@
+name: Update Recent Activity
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # هر 12 ساعت
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Readme-Workflows/recent-activity@v2
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
