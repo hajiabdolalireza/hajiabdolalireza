@@ -1,8 +1,8 @@
 # Hi there, I'm Alireza 👋
 
-# 🚀 Tech Stack
+## 🚀 Tech Stack
 
-## 🔤 Languages & Runtimes
+### 🔤 Languages & Runtimes
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
@@ -11,7 +11,7 @@
 
 ---
 
-## ⚡ Frontend Frameworks
+### ⚡ Frontend Frameworks
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)  
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)  
@@ -19,7 +19,7 @@
 
 ---
 
-## 🎨 Frontend Tooling & Styling
+### 🎨 Frontend Tooling & Styling
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)  
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)  
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)  
@@ -30,29 +30,29 @@
 
 ---
 
-## 🖥️ Backend & APIs
+### 🖥️ Backend & APIs
 
-### Node.js Frameworks
+#### Node.js Frameworks
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)  
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)  
 
-### Python Frameworks
+#### Python Frameworks
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)  
 
-### Go Frameworks
+#### Go Frameworks
 ![Gin](https://img.shields.io/badge/Gin-00ADD8?style=for-the-badge&logo=go&logoColor=white)  
 ![Echo](https://img.shields.io/badge/Echo-444444?style=for-the-badge&logo=go&logoColor=white)  
 ![Fiber](https://img.shields.io/badge/Fiber-2C8EBB?style=for-the-badge&logo=fiber&logoColor=white)  
 ![Chi](https://img.shields.io/badge/Chi-2C5BB4?style=for-the-badge&logo=go&logoColor=white)  
 
-### APIs
+#### APIs
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)  
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)  
 ![Microservices](https://img.shields.io/badge/Microservices-2E3440?style=for-the-badge&logo=apachekafka&logoColor=white)  
 
 ---
 
-## 💾 Databases & Cache
+### 💾 Databases & Cache
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)  
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)  
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
@@ -60,13 +60,13 @@
 
 ---
 
-## 📩 Messaging & Streaming
+### 📩 Messaging & Streaming
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)  
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)  
 
 ---
 
-## ☁️ Cloud & Hosting
+### ☁️ Cloud & Hosting
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)  
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)  
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)  
@@ -75,7 +75,7 @@
 
 ---
 
-## 🔧 DevOps & Infrastructure
+### 🔧 DevOps & Infrastructure
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)  
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)  
@@ -89,7 +89,7 @@
 
 ---
 
-## 📰 CMS
+### 📰 CMS
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)  
 
 
