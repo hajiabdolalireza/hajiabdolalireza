@@ -1,13 +1,15 @@
-name: Update Recent Activity
+name: Update README with recent activity
+
 on:
   schedule:
-    - cron: "0 */12 * * *"  # هر 12 ساعت
+    - cron: '*/30 * * * *'   
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: Readme-Workflows/recent-activity@v2
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.RECENT_ACTIVITY_TOKEN }}
