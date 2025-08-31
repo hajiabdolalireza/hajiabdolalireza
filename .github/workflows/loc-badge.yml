@@ -35,30 +35,28 @@ jobs:
           | tar xz
           sudo mv tokei /usr/local/bin/tokei
 
-      # Compute total LOC (as number) and a human-friendly version (with grouping)
+      # Compute total LOC (number) and a human-friendly version
       - name: Compute LOC total
         id: loc
         shell: bash
         run: |
-          # Sum "code" fields from tokei JSON; default to 0 if null
+          set -e
           TOTAL=$(tokei . --exclude .git,.github,node_modules -o json | jq '([..|.code? // empty] | add) // 0')
-          # Add thousands separators (fallback to plain number if numfmt absent)
           HUMAN=$(numfmt --grouping "$TOTAL" 2>/dev/null || echo "$TOTAL")
           echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
           echo "human=$HUMAN" >> "$GITHUB_OUTPUT"
 
-      # Create Shields endpoint JSON with custom text
+      # Create Shields endpoint JSON with custom text (no heredoc pitfalls)
       - name: Build loc.json (Shields endpoint)
-        shell: bash
+        env:
+          HUMAN: ${{ steps.loc.outputs.human }}
         run: |
-          cat > loc.json <<JSON
-{
-  "schemaVersion": 1,
-  "label": "From Hello World I've Written",
-  "message": "${{ steps.loc.outputs.human }} lines of code",
-  "color": "blue"
-}
-JSON
+          printf '{\n' > loc.json
+          printf '  "schemaVersion": 1,\n' >> loc.json
+          printf '  "label": "From Hello World I'\''ve Written",\n' >> loc.json
+          printf '  "message": "%s lines of code",\n' "$HUMAN" >> loc.json
+          printf '  "color": "blue"\n' >> loc.json
+          printf '}\n' >> loc.json
 
       # Commit both files (SVG + JSON) to gh-pages
       - name: Commit badge & JSON to gh-pages
