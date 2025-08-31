@@ -1,0 +1,19 @@
+name: Lines of Code
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # هر روز یکبار
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Count Lines of Code
+        uses: abhisheknaiidu/total-lines-of-code@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          REPOSITORY: alireza-dev   # جایگزین کن با یوزرنیم گیت‌هاب‌ت
