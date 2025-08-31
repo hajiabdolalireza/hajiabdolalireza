@@ -1,6 +1,25 @@
-# Hi there, I'm Alireza 👋
+# 👨‍💻 Alireza Hajiabdolali  
+**Full-Stack Developer · Software Architect · Web3 Builder**
 
-## 🚀 Tech Stack
+I’m a full-stack developer passionate about building **modern, scalable, and future-ready software products**.  
+From **backend infrastructures** to **frontend UIs** and **Web3 integrations**,  
+I deliver with **end-to-end technical ownership** 🚀  
+
+---
+
+## 🚀 Areas of Focus  
+- ⚡ **Full-Stack Development** · JavaScript · Go · Python  
+- 🔧 **Backend & Architecture** · APIs · Distributed Systems · Microservices  
+- 🎨 **Frontend** · React · Next.js · Tailwind CSS  
+- 🌐 **Web3** · Smart Contracts · EVM · dApps  
+- ⚙️ **DevOps** · CI/CD · Docker · GitHub Actions · Cloud Deployments  
+- 🏗️ **System Design** · Domain-Driven Design · Event-Based Communication  
+- 🛠️ **Developer Tooling** · Monorepos · Internal Tools  
+- 📈 **Digital Marketing & SEO** · Technical SEO · Analytics Integration  
+
+---
+
+## 🛠️ Tech Stack  
 
 ### 🔤 Languages & Runtimes
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
@@ -94,7 +113,20 @@
 
 ---
 
-## 📊 This Week I Spent My Time On
+---
+
+## 🎯 Quick Facts  
+- 🌍 Based in **Iran**  
+- 💼 Role: **Full-Stack Developer & Software Architect**  
+- ♟️ Hobbies: **Chess · Books**  
+- 📚 Currently Learning: **Advanced Web3 & Blockchain**  
+
+---
+
+
+
+
+
 <!--START_SECTION:waka-->
 **I'm a Night 🦉** 
 
