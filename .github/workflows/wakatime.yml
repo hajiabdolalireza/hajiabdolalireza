@@ -1,20 +1,32 @@
-name: Update WakaTime Stats
+name: WakaTime weekly metrics
+
 on:
   schedule:
-    - cron: "0 6 * * *"  # هر روز 06:00 UTC
+    - cron: "0 0 * * *"   # 00:00 UTC
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          TIME_RANGE: last_7_days
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          LANG_COUNT: 5
-          BLOCKS: ▓▒░
-          STOP_AT_OTHER: true
-          COMMIT_BY_ME: true
+
+          # «this week i spent my time on»
+          SHOW_OS: "False"
+          SHOW_PROJECTS: "False"
+          SHOW_EDITORS: "False"
+          SHOW_TIMEZONE: "False"
+          SHOW_COMMIT: "False"
+          SHOW_LANGUAGE: "True"          #Langs percent
+          SHOW_LINES_OF_CODE: "False"
+          SHOW_LANGUAGE_PER_REPO: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_DAYS_OF_WEEK: "False"
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_SHORT_INFO: "False"
+          SHOW_UPDATED_DATE: "False"
+          SHOW_TOTAL_CODE_TIME: "False"
+          SECTION_NAME: "waka"           
+          LOCALE: "en"
