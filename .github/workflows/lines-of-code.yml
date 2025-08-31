@@ -2,7 +2,7 @@ name: Lines of Code
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # هر روز یکبار
+    - cron: "0 0 * * *"   
   workflow_dispatch:
 
 jobs:
@@ -16,4 +16,4 @@ jobs:
         uses: abhisheknaiidu/total-lines-of-code@master
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          REPOSITORY: alireza-dev   # جایگزین کن با یوزرنیم گیت‌هاب‌ت
+          REPOSITORY: hajiabdolalireza   
