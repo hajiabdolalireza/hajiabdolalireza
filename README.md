@@ -178,7 +178,7 @@ No Activity Tracked This Week
 
 ---
 
-## ⚡ Recent GitHub Activity
+## ⚡ Recent Activity
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
