@@ -1,0 +1,29 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"     # روزی یک‌بار
+  workflow_dispatch:        # اجرای دستی
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # لازم برای commit خروجی
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # تنظیمات اصلی برای "My GitHub Data"
+          user: hajiabdolalireza
+          template: classic
+          base: header, repositories, metadata   # بخش‌های لازم برای دیتای پروفایل
+          config_timezone: Asia/Tehran
+
+          # جمله‌ی "From Hello World I've Written ..."
+          plugin_lines: yes
+          plugin_lines_delay: 30                 # کمک می‌کند اولین کوئری پایدار شود
+
+          # (اختیاری) اگر می‌خوای ریپوهای عضو/همکار هم حساب شوند:
+          repositories_affiliations: owner, collaborator, organization_member
