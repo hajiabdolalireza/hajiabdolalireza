@@ -15,6 +15,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # Generate the original SVG badge
       - name: Generate LOC badge (SVG)
         id: badge
         uses: shadowmoose/GHA-LoC-Badge@1.0.0
@@ -25,7 +26,42 @@ jobs:
           patterns: '*'               # File patterns (like .gitignore, separated by |)
           ignore: 'node_modules|.git|.github'
 
-      - name: Commit badge to gh-pages
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Install tokei
+        run: |
+          curl -sSL https://github.com/XAMPPRocky/tokei/releases/latest/download/tokei-x86_64-unknown-linux-gnu.tar.gz \
+          | tar xz
+          sudo mv tokei /usr/local/bin/tokei
+
+      # Compute total LOC (as number) and a human-friendly version (with grouping)
+      - name: Compute LOC total
+        id: loc
+        shell: bash
+        run: |
+          # Sum "code" fields from tokei JSON; default to 0 if null
+          TOTAL=$(tokei . --exclude .git,.github,node_modules -o json | jq '([..|.code? // empty] | add) // 0')
+          # Add thousands separators (fallback to plain number if numfmt absent)
+          HUMAN=$(numfmt --grouping "$TOTAL" 2>/dev/null || echo "$TOTAL")
+          echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
+          echo "human=$HUMAN" >> "$GITHUB_OUTPUT"
+
+      # Create Shields endpoint JSON with custom text
+      - name: Build loc.json (Shields endpoint)
+        shell: bash
+        run: |
+          cat > loc.json <<JSON
+{
+  "schemaVersion": 1,
+  "label": "From Hello World I've Written",
+  "message": "${{ steps.loc.outputs.human }} lines of code",
+  "color": "blue"
+}
+JSON
+
+      # Commit both files (SVG + JSON) to gh-pages
+      - name: Commit badge & JSON to gh-pages
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -33,6 +69,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B gh-pages
-          git add loc-badge.svg
-          git commit -m "Update LOC badge" || echo "No changes"
+          git add loc-badge.svg loc.json
+          git commit -m "Update LOC badge & endpoint JSON" || echo "No changes"
           git push -f https://x-access-token:${TOKEN}@github.com/hajiabdolalireza/hajiabdolalireza.git gh-pages
