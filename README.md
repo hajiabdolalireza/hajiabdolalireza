@@ -8,14 +8,36 @@ I deliver with **end-to-end technical ownership** 🚀
 ---
 
 ## 🚀 Areas of Focus  
-- ⚡ **Full-Stack Development** · JavaScript · Go · Python  
-- 🔧 **Backend & Architecture** · APIs · Distributed Systems · Microservices  
-- 🎨 **Frontend** · React · Next.js · Tailwind CSS  
-- 🌐 **Web3** · Smart Contracts · EVM · dApps  
-- ⚙️ **DevOps** · CI/CD · Docker · GitHub Actions · Cloud Deployments  
-- 🏗️ **System Design** · Domain-Driven Design · Event-Based Communication  
-- 🛠️ **Developer Tooling** · Monorepos · Internal Tools  
-- 📈 **Digital Marketing & SEO** · Technical SEO · Analytics Integration  
+
+- ⚡ **Full-Stack Product Development**  
+  Building scalable products from scratch using **JavaScript, TypeScript, Go, and Python** — covering backend APIs, frontend UIs, and database design.  
+
+- 🔧 **Backend Engineering & System Architecture**  
+  Designing **REST & GraphQL APIs**, **microservices**, and distributed systems using frameworks like **Express.js, NestJS, Django, Gin, Fiber, and Kafka** — with an emphasis on clean architecture, scalability, and fault tolerance.  
+
+- 🎨 **Frontend Engineering**  
+  Developing modern, responsive UIs using **React, Next.js, Angular, Nuxt.js**, and styling with **Tailwind CSS, Redux, Vite, Styled Components, and Bootstrap**.  
+
+- 💾 **Data Layer & Storage**  
+  Working with relational and non-relational databases (**PostgreSQL, SQLite, MongoDB**) and caching solutions like **Redis** for performance optimization.  
+
+- 📩 **Messaging & Event-Driven Systems**  
+  Architecting event-based communication with **Apache Kafka** and **RabbitMQ** for real-time, scalable backends.  
+
+- 🌐 **Web3 & Decentralized Applications**  
+  Integrating **EVM-compatible blockchains**, smart contracts, and building **dApps** with security and efficiency in mind.  
+
+- ☁️ **Cloud & Hosting**  
+  Deploying applications on **AWS, Google Cloud, Azure, Firebase, and Vercel**, ensuring availability, resilience, and cost-effectiveness.  
+
+- ⚙️ **DevOps & Infrastructure**  
+  Automating workflows with **Docker, Kubernetes, GitHub Actions, GitLab CI, Jenkins, Terraform, Ansible**, and monitoring with **Prometheus & Grafana**.  
+
+- 🏗️ **System Design & Technical Strategy**  
+  Applying **Domain-Driven Design**, modular architectures, and event-based communication patterns for long-term maintainability.  
+
+- 📰 **CMS & Digital Products**  
+  Extending and customizing platforms like **WordPress**, integrating **SEO best practices** and analytics for traffic growth.  
 
 ---
 
