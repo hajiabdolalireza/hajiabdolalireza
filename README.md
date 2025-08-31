@@ -96,6 +96,29 @@
 
 ## 📊 This Week I Spent My Time On
 <!--START_SECTION:waka-->
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                6 commits           ██████░░░░░░░░░░░░░░░░░░░   24.00 % 
+🌆 Daytime                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌃 Evening                10 commits          ██████████░░░░░░░░░░░░░░░   40.00 % 
+🌙 Night                  9 commits           █████████░░░░░░░░░░░░░░░░   36.00 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Tehran
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+```
+
+
 <!--END_SECTION:waka-->
 
 ---
