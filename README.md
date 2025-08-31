@@ -94,7 +94,7 @@
 
 ---
 
-## ⏳ Weekly Development Breakdown (WakaTime)
+## 📊  Weekly Development Breakdown (WakaTime)
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
