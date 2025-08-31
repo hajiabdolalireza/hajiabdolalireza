@@ -2,14 +2,21 @@ name: Update README with recent activity
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   
+    - cron: "*/30 * * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: Readme-Workflows/recent-activity@v2.4.1
+      - name: Recent Activity
+        uses: Readme-Workflows/recent-activity@v2.4.1
         with:
-          GH_TOKEN: ${{ secrets.RECENT_ACTIVITY_TOKEN }}
+          GH_USERNAME: hajiabdolalireza
+          CONFIG_FILE: .github/recent-activity.config.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.RECENT_ACTIVITY_TOKEN }}   
