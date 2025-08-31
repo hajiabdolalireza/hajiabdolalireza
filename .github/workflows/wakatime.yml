@@ -2,7 +2,7 @@ name: WakaTime weekly metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,13 +13,11 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
 
-          # «this week i spent my time on»
-          SHOW_OS: "False"
+          SHOW_LANGUAGE: "True"
           SHOW_PROJECTS: "False"
           SHOW_EDITORS: "False"
           SHOW_TIMEZONE: "False"
           SHOW_COMMIT: "False"
-          SHOW_LANGUAGE: "True"          #Langs percent
           SHOW_LINES_OF_CODE: "False"
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_LOC_CHART: "False"
@@ -27,6 +25,5 @@ jobs:
           SHOW_PROFILE_VIEWS: "False"
           SHOW_SHORT_INFO: "False"
           SHOW_UPDATED_DATE: "False"
-          SHOW_TOTAL_CODE_TIME: "False"
-          SECTION_NAME: "waka"           
+          SECTION_NAME: "waka"
           LOCALE: "en"
