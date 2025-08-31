@@ -2,8 +2,11 @@ name: LOC Badge
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Run once per day
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # Run once per day (00:00 UTC)
+  workflow_dispatch:       # Allow manual runs from the Actions tab
+
+permissions:
+  contents: write          # Required to push commits
 
 jobs:
   loc-badge:
@@ -17,17 +20,19 @@ jobs:
         uses: shadowmoose/GHA-LoC-Badge@1.0.0
         with:
           debug: false
-          directory: ./               # Root of this repo (you can change it)
+          directory: ./               # Root of this repo (change if needed)
           badge: ./loc-badge.svg      # Output SVG file
           patterns: '*'               # File patterns (like .gitignore, separated by |)
           ignore: 'node_modules|.git|.github'
 
-      # Commit SVG file to gh-pages branch
       - name: Commit badge to gh-pages
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B gh-pages
           git add loc-badge.svg
           git commit -m "Update LOC badge" || echo "No changes"
-          git push -f origin gh-pages
+          git push -f https://x-access-token:${TOKEN}@github.com/hajiabdolalireza/hajiabdolalireza.git gh-pages
