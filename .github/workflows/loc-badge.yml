@@ -26,14 +26,11 @@ jobs:
           patterns: '*'               # File patterns (like .gitignore, separated by |)
           ignore: 'node_modules|.git|.github'
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Install tokei
+      # Install cloc + jq from apt (stable)
+      - name: Install cloc & jq
         run: |
-          curl -sSL https://github.com/XAMPPRocky/tokei/releases/latest/download/tokei-x86_64-unknown-linux-gnu.tar.gz \
-          | tar xz
-          sudo mv tokei /usr/local/bin/tokei
+          sudo apt-get update
+          sudo apt-get install -y cloc jq
 
       # Compute total LOC (number) and a human-friendly version
       - name: Compute LOC total
@@ -41,12 +38,13 @@ jobs:
         shell: bash
         run: |
           set -e
-          TOTAL=$(tokei . --exclude .git,.github,node_modules -o json | jq '([..|.code? // empty] | add) // 0')
+          # cloc outputs JSON; take SUM.code
+          TOTAL=$(cloc . --quiet --json --exclude-dir=.git,.github,node_modules | jq '.SUM.code // 0')
           HUMAN=$(numfmt --grouping "$TOTAL" 2>/dev/null || echo "$TOTAL")
           echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
           echo "human=$HUMAN" >> "$GITHUB_OUTPUT"
 
-      # Create Shields endpoint JSON with custom text (no heredoc pitfalls)
+      # Create Shields endpoint JSON with custom text
       - name: Build loc.json (Shields endpoint)
         env:
           HUMAN: ${{ steps.loc.outputs.human }}
