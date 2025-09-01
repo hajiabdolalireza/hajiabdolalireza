@@ -138,8 +138,7 @@ I deliver with **end-to-end technical ownership** 🚀
 
 ---
 
-## 🎯 Quick Facts  
-- 🌍 Based in **Iran**  
+## 🎯 Quick Facts   
 - 💼 Role: **Full-Stack Developer & Software Architect**  
 - ♟️ Hobbies: **Chess · Books**  
 - 📚 Currently Learning: **Advanced Web3 & Blockchain**  
