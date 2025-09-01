@@ -188,7 +188,7 @@ No Activity Tracked This Week
 5. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 <!--RECENT_ACTIVITY:end-->
 
-![Lines of Code](https://raw.githubusercontent.com/hajiabdolalireza/hajiabdolalireza/gh-pages/loc-badge.svg)
+![Lines of Code](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/hajiabdolalireza/hajiabdolalireza/gh-pages/loc.json&style=for-the-badge)
 
 ---
 
