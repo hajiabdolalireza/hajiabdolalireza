@@ -3,7 +3,6 @@
 </p>
 
 
-
 # 👨🏻‍💻 Alireza Hajiabdolali  
 **Full-Stack Developer · Software Architect · Web3 Builder**
 
