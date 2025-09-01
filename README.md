@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/alireza-hajiabdolali-logo.png" alt="Alireza Hajibdolalireza Logo" width="180"/>
+  <img src="assets/alireza-hajiabdolali-logo.png" alt="Alireza Hajibdolalireza Logo"/>
 </p>
 
 
