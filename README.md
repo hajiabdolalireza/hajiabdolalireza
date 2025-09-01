@@ -1,4 +1,4 @@
-# 👨‍💻 Alireza Hajiabdolali  
+# 👨🏻‍💻 Alireza Hajiabdolali  
 **Full-Stack Developer · Software Architect · Web3 Builder**
 
 I’m a full-stack developer passionate about building **modern, scalable, and future-ready software products**.  
