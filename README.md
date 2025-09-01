@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Alireza Hajibdolalireza Logo" width="180"/>
+</p>
+
+
+
 # 👨🏻‍💻 Alireza Hajiabdolali  
 **Full-Stack Developer · Software Architect · Web3 Builder**
 
