@@ -209,7 +209,7 @@ No Activity Tracked This Week
 [![spotify-github-profile](https://spotify-github-profile-one-jet.vercel.app/api/view?uid=31smmp3iinzo7fav4vohfh5qudwu&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile-one-jet.vercel.app/api/view?uid=31smmp3iinzo7fav4vohfh5qudwu&redirect=true)
 
 ## 🎧 Recently Played on Spotify
-![Spotify Recently Played](https://spotify-github-profile-one-jet.vercel.app/api/recently-played?limit=5)
+![Spotify Recently Played](https://<your-app>.vercel.app/api/recently-played?theme=spotify&limit=5)
 
 ---
 
