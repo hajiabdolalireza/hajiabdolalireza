@@ -184,11 +184,11 @@ No Activity Tracked This Week
 ## ⚡ Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
+1. ❗️ Opened issue [#1](https://github.com/hajiabdolalireza/hajiabdolalireza/issues/1) in [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 2. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
-3. ⬆️ Pushed 2 commit(s) to [hajiabdolalireza/spotify-github-profile](https://github.com/hajiabdolalireza/spotify-github-profile)<br>
-4. 🎉 Merged PR [#9](https://github.com/hajiabdolalireza/spotify-github-profile/pull/9) in [hajiabdolalireza/spotify-github-profile](https://github.com/hajiabdolalireza/spotify-github-profile)<br>
-5. 💪 Opened PR [#9](https://github.com/hajiabdolalireza/spotify-github-profile/pull/9) in [hajiabdolalireza/spotify-github-profile](https://github.com/hajiabdolalireza/spotify-github-profile)<br>
+3. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
+4. ⬆️ Pushed 2 commit(s) to [hajiabdolalireza/spotify-github-profile](https://github.com/hajiabdolalireza/spotify-github-profile)<br>
+5. 🎉 Merged PR [#9](https://github.com/hajiabdolalireza/spotify-github-profile/pull/9) in [hajiabdolalireza/spotify-github-profile](https://github.com/hajiabdolalireza/spotify-github-profile)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
