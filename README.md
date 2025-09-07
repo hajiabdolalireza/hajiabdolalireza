@@ -185,10 +185,10 @@ No Activity Tracked This Week
 
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
-2. ⭐ Starred [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
-3. ⭐ Starred [hajiabdolalireza/spotify-github-profile](https://github.com/hajiabdolalireza/spotify-github-profile)<br>
-4. ✔️ Closed issue [#2](https://github.com/hajiabdolalireza/hajiabdolalireza/issues/2) in [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
-5. ❗️ Opened issue [#2](https://github.com/hajiabdolalireza/hajiabdolalireza/issues/2) in [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
+2. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
+3. ⭐ Starred [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
+4. ⭐ Starred [hajiabdolalireza/spotify-github-profile](https://github.com/hajiabdolalireza/spotify-github-profile)<br>
+5. ✔️ Closed issue [#2](https://github.com/hajiabdolalireza/hajiabdolalireza/issues/2) in [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
