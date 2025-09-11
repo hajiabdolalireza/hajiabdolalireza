@@ -188,7 +188,7 @@ No Activity Tracked This Week
 2. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 3. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 4. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
-5. ⭐ Starred [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
+5. ⬆️ Pushed 1 commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
