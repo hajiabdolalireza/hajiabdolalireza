@@ -170,10 +170,12 @@ I deliver with **end-to-end technical ownership** 🚀
 🕑︎ Time Zone: Asia/Tehran
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+HTML                     3 mins              █████████████████████████   99.50 % 
+JavaScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.36 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+Personal Website         3 mins              █████████████████████████   100.00 % 
 ```
 
 
