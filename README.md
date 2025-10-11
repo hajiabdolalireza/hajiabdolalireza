@@ -188,7 +188,7 @@ No Activity Tracked This Week
 2. ⬆️ Pushed undefined commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 3. ⬆️ Pushed undefined commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 4. ⬆️ Pushed undefined commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
-5. ⭐ Starred [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)<br>
+5. ⬆️ Pushed undefined commit(s) to [hajiabdolalireza/hajiabdolalireza](https://github.com/hajiabdolalireza/hajiabdolalireza)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
