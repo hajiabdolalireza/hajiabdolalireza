@@ -154,6 +154,28 @@ I deliver with **end-to-end technical ownership** 🚀
 
 
 <!--START_SECTION:waka-->
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                88 commits          ████████████░░░░░░░░░░░░░   49.44 % 
+🌆 Daytime                44 commits          ██████░░░░░░░░░░░░░░░░░░░   24.72 % 
+🌃 Evening                26 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.61 % 
+🌙 Night                  20 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.24 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Tehran
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+```
+
 
 <!--END_SECTION:waka-->
 
