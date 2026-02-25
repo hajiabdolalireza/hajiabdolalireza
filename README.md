@@ -193,12 +193,6 @@ No Activity Tracked This Week
 
 ---
 
-
-[![LOC](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/hajiabdolalireza/hajiabdolalireza/gh-pages/loc.json&style=for-the-badge&logo=github&logoColor=white&labelColor=161b22&color=10b981&cacheSeconds=3600)](https://github.com/hajiabdolalireza)
-
-
----
-
 ### 🐱 My GitHub Data
 ![Metrics](/github-metrics.svg)
 
