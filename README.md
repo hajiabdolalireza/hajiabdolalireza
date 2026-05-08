@@ -74,51 +74,6 @@ While my main direction is product and strategy, I also use technical skills to 
 
 ---
 
-## 💼 Selected Experience
-
-### COO — Asonsazeh
-I’ve been focused on improving profitability, operational clarity, and execution quality by:
-- Implementing financial systems for better visibility and decision-making
-- Analyzing portfolio performance using **BCG Matrix**
-- Reallocating focus toward higher-margin products
-- Removing loss-making products
-- Aligning innovation, marketing, and SEO around priority products
-- Defining customer personas and user journeys
-- Automating repetitive workflows with **AI + n8n**
-
-**Selected outcomes:**
-- **15% average sales growth** in the first 6 months
-- **4% margin growth**
-- Better speed and quality in operational decision-making
-
-### Product Manager & Business Analyst — Sepehr Boom Rad
-I worked on both product and execution:
-- Product roadmap development
-- KPI definition
-- Prioritization with **MoSCoW**
-- Operational follow-ups and project tracking
-- Refactoring legacy code and shipping new features
-- Collaborating on rebranding and marketing strategy
-- Persona, touchpoint, and journey analysis
-- UI/UX improvement
-
-**Selected outcomes:**
-- **30% reduction in development and maintenance cost**
-- **Product launch delivered 2 months earlier** through agile execution
-
-### Freelance Consultant — Product / Business / Finance
-I’ve also worked with startups and agile teams on:
-- Business diagnostics and growth challenges
-- Product consulting
-- Financial system design
-- Cost control
-- MVP and roadmap definition
-- UX research and product design support
-- Technical prototyping and system architecture
-- SEO prioritization aligned with profitability and product goals
-
----
-
 ## 🧰 Core Skills
 
 ### Product / Strategy / BizOps
@@ -198,7 +153,7 @@ I’d be happy to connect and exchange ideas.
 ---
 
 ## 🎯 Quick Facts   
-- 💼 Role: **Full-Stack Developer & Software Architect**  
+- 💼 Role: **Product Management**  
 - ♟️ Hobbies: **Chess · Books**  
 - 📚 Currently Learning: **Advanced Web3 & Blockchain**  
 
