@@ -4,18 +4,22 @@
 
 # 👋 Hi, I'm Alireza Hajiabdolali 👨🏻‍💻
 
-**BizOps | Product Strategy | Product Management**
+**BizOps | Product Manager**
   
-I work at the intersection of **business, operations, and product**.
+I work at the intersection of **product, business, strategy, and growth**.
 
-My background combines **BizOps / COO experience, product management, business analysis, system design, and hands-on web app prototyping**. I’m especially interested in building and improving products through a **system-oriented and data-driven approach**: understanding the problem clearly, defining the right metrics, prioritizing effectively, and driving execution toward measurable outcomes.
+My experience spans **Product Management, Business Operations (BizOps), entrepreneurship**. I enjoy turning ideas into scalable businesses by combining strategic thinking, operational excellence, and customer-centric product execution.
 
-I’m particularly motivated by:
-- **Entrepreneurship**
-- **Product Strategy**
-- **Operations & Growth**
-- **Profitability-focused execution**
-- **Designing better systems for better decisions**
+I am particularly passionate about understanding markets, identifying growth opportunities, and building products and brands that create measurable business impact. With a strong interest in **marketing, branding, and growth strategy**, I enjoy connecting customer needs, business goals, and product vision to drive sustainable growth.
+
+My areas of interest include:
+• **Entrepreneurship & Venture Building**
+• **Product Strategy & Product Management**
+• **Business Operations & Growth**
+• **Marketing, Branding & Go-to-Market Strategy**
+• **Data-Driven Decision Making**
+• **Building Systems that Scale**
+• **Profitability-Focused Execution**
 
 ---
 
