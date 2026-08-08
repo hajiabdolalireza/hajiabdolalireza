@@ -168,6 +168,34 @@ I’d be happy to connect and exchange ideas.
 
 
 <!--START_SECTION:waka-->
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                88 commits          ████████████░░░░░░░░░░░░░   46.81 % 
+🌆 Daytime                54 commits          ███████░░░░░░░░░░░░░░░░░░   28.72 % 
+🌃 Evening                26 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.83 % 
+🌙 Night                  20 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.64 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Tehran
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+```
+
+🤖 **AI Coding This Week** 
+
+```text
+No AI Coding Activity Tracked This Week
+```
+
 
 <!--END_SECTION:waka-->
 
