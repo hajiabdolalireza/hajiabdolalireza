@@ -112,7 +112,6 @@ While my main direction is product and strategy, I also use technical skills to 
 ### Tech & Prototyping
 - Web App Architecture
 - System Design
-- Go
 - JavaScript / TypeScript
 - Python
 - Git / GitHub
