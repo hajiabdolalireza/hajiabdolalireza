@@ -11,9 +11,11 @@ jobs:
     permissions:
       contents: write       # لازم برای commit خروجی
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # 3.34.0
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
+          use_prebuilt_image: no
 
           # تنظیمات اصلی برای "My GitHub Data"
           user: hajiabdolalireza
