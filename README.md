@@ -218,11 +218,11 @@ No AI Coding Activity Tracked This Week
 ### 🚧 my todoist stats:
 
 <!-- TODO-IST:START -->
-🏆  1,762 Karma Points           
-🌸  Completed 0 tasks today           
-🗓  Completed 0 tasks this week           
-✅  Completed 70 tasks so far           
-⏳  Longest streak is 4 days
+🏆  **1,762** Karma Points           
+🌸  Completed **0** tasks today           
+✅  Completed **70** tasks so far           
+🔥  Current streak: **4 days**           
+⏳  Longest streak is **4** days
 <!-- TODO-IST:END -->
 
 ---
