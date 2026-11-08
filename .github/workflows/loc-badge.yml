@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       # Generate the original SVG badge
       - name: Generate LOC badge (SVG)
         id: badge
-        uses: shadowmoose/GHA-LoC-Badge@1.0.0
+        uses: shadowmoose/GHA-LoC-Badge@8c8191e02ebe2e4b4764f4711228bddcaeb88f19 # 1.0.0
         with:
           debug: false
           directory: ./               # Root of this repo (change if needed)
