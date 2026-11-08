@@ -11,6 +11,10 @@ jobs:
     permissions:
       contents: write       # لازم برای commit خروجی
     steps:
+      - name: Load pinned Metrics container
+        run: |
+          docker pull ghcr.io/lowlighter/metrics@sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65
+          docker tag ghcr.io/lowlighter/metrics@sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65 metrics:3.34.0
       - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # 3.34.0
         with:
           token: ${{ secrets.METRICS_TOKEN }}
