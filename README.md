@@ -212,20 +212,5 @@ No AI Coding Activity Tracked This Week
 
 ---
 
-### 🐱 My GitHub Data
-![Metrics](/github-metrics.svg)
-
-### 🚧 my todoist stats:
-
-<!-- TODO-IST:START -->
-🏆  **1,762** Karma Points           
-🌸  Completed **0** tasks today           
-✅  Completed **70** tasks so far           
-🔥  Current streak: **4 days**           
-⏳  Longest streak is **4** days
-<!-- TODO-IST:END -->
-
----
-
 ## 📊 GitHub Stats
-![Alireza's GitHub stats](https://github-readme-stats.vercel.app/api?username=hajiabdolalireza&show_icons=true&theme=radical)
+![GitHub Metrics](github-metrics.svg)
